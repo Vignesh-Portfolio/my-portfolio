@@ -1,0 +1,198 @@
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    height: 100vh;
+    background: #0d0d0d;
+    /* background:  linear-gradient(135deg, #0f0f0f, #1a1a1a); */
+    /* background: rgba(15, 15, 15, 0.6); */
+  /* backdrop-filter: blur(10px); */
+    
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .space {
+    font-size: 3rem;
+    color: #00ffc6;
+    margin-bottom: 20px; /* Creates space below heading */
+  }
+  
+  .left-side h1,
+.right-side h1 {
+  color: #00ffc6; /* neon green */
+}
+
+.left-side p,
+.right-side p {
+  color: #ccc;
+}
+
+  
+  .left-side, .right-side {
+    flex: 1;
+    padding: 2rem;
+    max-width: 30%;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+  }
+  
+  .center-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 255, 200, 0.3);
+    transition: transform 0.6s ease;
+  }
+  
+  .center-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hover-rotate:hover {
+    transform: rotateY(10deg) scale(1.5);
+  }
+  
+  /* Scroll mouse indicator */
+  .scroll-indicator {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #aaa;
+    animation: bounce 2s infinite;
+  }
+  
+  .scroll-indicator .mouse {
+    width: 25px;
+    height: 40px;
+    border: 2px solid #aaa;
+    border-radius: 25px;
+    margin: 0 auto 5px;
+    position: relative;
+  }
+  
+  .scroll-indicator .mouse::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #aaa;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    animation: scrollDown 1.5s infinite;
+  }
+  
+  /* Animations */
+  @keyframes fadeInUp {
+    0% { transform: translateY(40px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  
+  @keyframes scrollDown {
+    0% { top: 8px; opacity: 1; }
+    100% { top: 20px; opacity: 0; }
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(-10px); }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem;
+    }
+  
+    .left-side, .right-side {
+      max-width: 100%;
+      padding: 1rem;
+    }
+  
+    .center-image {
+      
+      margin: 20px 0;
+    }
+  }
+  
+
+
+  @media (max-width: 1024px) {
+    .hero-section {
+      flex-direction: column;
+      text-align: center;
+      padding: 3rem 1.5rem;
+      height: auto;
+    }
+  
+    .left-side,
+    .right-side {
+      max-width: 100%;
+      padding: 1rem;
+      opacity: 1;
+    }
+  
+    .center-image {
+      margin: 2rem 0;
+    }
+  
+    .space {
+      font-size: 2.2rem;
+    }
+  }
+  
+  /* Small Devices (<= 600px) */
+  @media (max-width: 600px) {
+    .hero-section {
+      padding: 2rem 1rem;
+    }
+  
+    .space {
+      font-size: 1.6rem;
+    }
+  
+    h2 {
+      font-size: 1.1rem;
+    }
+  
+    p {
+      font-size: 0.95rem;
+    }
+  
+    .center-image {
+      width: 180px;
+      height: 180px;
+    }
+  
+    .scroll-indicator .mouse {
+      width: 20px;
+      height: 35px;
+    }
+  }
+  
+  /* Extra Small Devices (<= 400px) */
+  @media (max-width: 400px) {
+    .space {
+      font-size: 1.4rem;
+    }
+  
+    .center-image {
+      width: 140px;
+      height: 140px;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  }
