@@ -49,7 +49,8 @@ function ReachMeSection() {
             <ButtonEffect text="Download Resume" />
           </a> */}
           <div className="contact-button">
-  <a href="/resume.pdf" download style={{ textDecoration: "none" }}>
+  <a href="/Vignesh-Bala-Resume.pdf" download style={{ textDecoration: "none" }}>
+  
     <ButtonEffect
       text={
         <>

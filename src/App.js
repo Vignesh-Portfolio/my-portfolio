@@ -1,5 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+// import { HashRouter } from 'react-router-dom';
+
 import WebProjects from './pages/WebProjects';
 import BlenderProjects from './pages/BlenderProjects';
 import HeroSection from './HeroSection';
