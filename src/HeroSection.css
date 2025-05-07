@@ -196,3 +196,15 @@
       font-size: 0.9rem;
     }
   }
+
+  @media (max-width: 600px) {
+    .scroll-indicator {
+      margin-top: 2.5rem; /* Add space below the paragraph */
+      position: static;    /* Avoid absolute/fixed overlap */
+    }
+  
+    .scroll-indicator .mouse {
+      width: 20px;
+      height: 35px;
+    }
+  }
