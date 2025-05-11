@@ -36,19 +36,19 @@ function ProjectsSection() {
     {
       video: 'Media/BV-video/music-dance.mp4',
       title: 'Robo Dance',
-      link: 'https://www.instagram.com/reel/DIDfPm5yq6H/?igsh=MXcydTVmdHJ3amE2MQ==',
+      link: 'https://youtube.com/shorts/WvZSOzsUiZs',
       button: 'View'
     },
     {
       video: 'Media/BV-video/CN.mp4',
       title: 'Night Walker',
-      link: 'https://www.instagram.com/reel/DHtWuYhTI_D/?igsh=MTJiYm8zY3RsZ3Q4Zw==',
+      link: 'https://youtu.be/MkPEYgD3uSQ',
       button: 'View'
     },
     {
       video: 'Media/BV-video/B.mp4',
       title: 'Butterfly',
-      link: 'https://www.instagram.com/reel/DGxU-AxT2s_/?igsh=MXRiYXozY3g0eDl6aA==',
+      link: 'https://youtube.com/shorts/ge0du7z6BMk',
       button: 'View'
     },
     {
