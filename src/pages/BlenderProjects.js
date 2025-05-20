@@ -24,6 +24,47 @@ const webProjects = [
     link: 'https://youtube.com/shorts/ge0du7z6BMk',
     button: 'YouTube'
   },
+
+
+{
+    img: process.env.PUBLIC_URL + '/Media/BV-video/B.mp4',
+    title: 'Butterfly',
+    description: '',
+    link: 'https://youtube.com/shorts/ge0du7z6BMk',
+    button: 'YouTube'
+  },
+
+
+  {
+    img: process.env.PUBLIC_URL + '/Media/BV-video/Blender1.mp4',
+    title: 'Cycle Engine',
+    description: '',
+    link: 'https://youtu.be/A-SDwFxAj9w?si=LZxaUus-pw1h00qH',
+    button: 'YouTube'
+  },
+
+
+
+
+
+
+  {
+    img: process.env.PUBLIC_URL + '/Media/BV-image/Blender.png',
+    title: 'Blender',
+    description: '',
+    link: 'https://www.instagram.com/p/DFrxbvwTgHU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    button: 'Instagram'
+  },
+
+    {
+    img: process.env.PUBLIC_URL + '/Media/BV-video/Glass.mp4',
+    title: 'Glass Design in Blender',
+    description: '',
+    link: 'https://youtu.be/ue8okxP00rI?si=2DgAYBXaOY8IckcO',
+    button: 'YouTube'
+  },
+
+
   {
     img: process.env.PUBLIC_URL + '/Media/BV-image/Table.png',
     title: 'Table',
@@ -47,14 +88,14 @@ function WebProjects() {
     project.title.toLowerCase().includes(searchQuery.trim().toLowerCase())
   );
 
-  // const isVideo = (url) => {
-  //   return url.match(/\.(mp4|webm|png|jpg|ogg)$/i);
-  // };
+  const isVideo = (url) => {
+    return url.match(/\.(mp4|webm|png|jpg|ogg)$/i);
+  };
 
-const isVideo = (url) => {
-  const ext = url.split('.').pop().toLowerCase();
-  return ['mp4', 'webm', 'ogg'].includes(ext);
-};
+// const isVideo = (url) => {
+//   const ext = url.split('.').pop().toLowerCase();
+//   return ['mp4', 'webm', 'ogg'].includes(ext);
+// };
 
 
   return (
