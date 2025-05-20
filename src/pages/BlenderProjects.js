@@ -8,22 +8,51 @@ const webProjects = [
     title: 'Robo Dance',
     description: '',
     link: 'https://youtube.com/shorts/WvZSOzsUiZs',
-    button: 'Instagram'
+    button: 'YouTube'
   },
   {
     img: process.env.PUBLIC_URL + '/Media/BV-video/CN.mp4',
     title: 'Night Walker',
     description: '',
     link: 'https://youtu.be/MkPEYgD3uSQ',
-    button: 'Instagram'
+    button: 'YouTube'
   },
   {
     img: process.env.PUBLIC_URL + '/Media/BV-video/B.mp4',
     title: 'Butterfly',
     description: '',
     link: 'https://youtube.com/shorts/ge0du7z6BMk',
+    button: 'YouTube'
+  },
+
+
+
+
+ {
+    img: process.env.PUBLIC_URL + '/Media/BV-image/Table.webp',
+    title: 'Table',
+    description: '',
+    link: 'https://www.instagram.com/p/DFqHok7TjKE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     button: 'Instagram'
   },
+
+
+
+
+  {
+    img: process.env.PUBLIC_URL + '/Media/BV-video/B1.mp4',
+    title: 'Blender Daily',
+    description: '',
+    link: 'https://www.instagram.com/reel/DFnmVPkz-yX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    button: 'Instagram'
+  },
+
+
+
+
+
+
+
 ];
 
 function WebProjects() {
