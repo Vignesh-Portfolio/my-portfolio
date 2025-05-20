@@ -47,9 +47,15 @@ function WebProjects() {
     project.title.toLowerCase().includes(searchQuery.trim().toLowerCase())
   );
 
-  const isVideo = (url) => {
-    return url.match(/\.(mp4|webm|png|jpg|ogg)$/i);
-  };
+  // const isVideo = (url) => {
+  //   return url.match(/\.(mp4|webm|png|jpg|ogg)$/i);
+  // };
+
+const isVideo = (url) => {
+  const ext = url.split('.').pop().toLowerCase();
+  return ['mp4', 'webm', 'ogg'].includes(ext);
+};
+
 
   return (
     <div className="projects-page">
