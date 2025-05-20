@@ -25,7 +25,7 @@ const webProjects = [
     button: 'YouTube'
   },
   {
-    img: process.env.PUBLIC_URL + '/Media/BV-image/Table.webm',
+    img: process.env.PUBLIC_URL + '/Media/BV-image/Table.png',
     title: 'Table',
     description: '',
     link: 'https://www.instagram.com/p/DFqHok7TjKE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
