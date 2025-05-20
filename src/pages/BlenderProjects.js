@@ -48,7 +48,7 @@ function WebProjects() {
   );
 
   const isVideo = (url) => {
-    return url.match(/\.(mp4|webm|ogg)$/i);
+    return url.match(/\.(mp4|webm|png|jpg|ogg)$/i);
   };
 
   return (
