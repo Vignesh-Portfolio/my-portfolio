@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.17ebe4af.css",
-    "main.js": "/my-portfolio/static/js/main.8272b52a.js",
+    "main.js": "/my-portfolio/static/js/main.ba452624.js",
     "static/media/ProfileV.png": "/my-portfolio/static/media/ProfileV.3c6e4ec094fc8e96e858.png",
     "static/media/luffy-gear5.png": "/my-portfolio/static/media/luffy-gear5.ea8038681e6458084af6.png",
     "index.html": "/my-portfolio/index.html",
     "main.17ebe4af.css.map": "/my-portfolio/static/css/main.17ebe4af.css.map",
-    "main.8272b52a.js.map": "/my-portfolio/static/js/main.8272b52a.js.map"
+    "main.ba452624.js.map": "/my-portfolio/static/js/main.ba452624.js.map"
   },
   "entrypoints": [
     "static/css/main.17ebe4af.css",
-    "static/js/main.8272b52a.js"
+    "static/js/main.ba452624.js"
   ]
 }
