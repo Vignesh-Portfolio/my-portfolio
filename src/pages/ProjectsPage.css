@@ -144,3 +144,38 @@ body {
     color: #00ffccaa;
   }
   
+
+  /* Tablet (width up to 1024px) */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .search-form {
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navbar-title {
+    margin: 0.5rem 0;
+  }
+}
+
+/* Mobile (width up to 600px) */
+@media screen and (max-width: 600px) {
+  .nav-left .nav-link {
+    font-size: 1rem;
+  }
+
+  .navbar-title {
+    font-size: 1.2rem;
+  }
+
+  .search-input {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+}
