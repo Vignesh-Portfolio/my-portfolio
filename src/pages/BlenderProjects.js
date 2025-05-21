@@ -26,13 +26,62 @@ const webProjects = [
   },
 
 
-
-{
+  {
     img: process.env.PUBLIC_URL + '/Media/BV-video/B.mp4',
     title: 'Butterfly',
     description: '',
     link: 'https://youtube.com/shorts/ge0du7z6BMk',
     button: 'YouTube'
+  },
+
+
+
+
+
+
+
+
+
+
+  
+   {
+    img: process.env.PUBLIC_URL + '/Media/BV-image/Island.png',
+    title: 'Island',
+    description: '',
+    link: 'https://www.instagram.com/p/DFug_agzPKM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    button: 'Instagram'
+  },
+
+
+
+
+
+
+
+ {
+    img: process.env.PUBLIC_URL + '/Media/BV-video/DragonHouse.mp4',
+    title: 'Dragon House',
+    description: '',
+    link: 'https://youtube.com/shorts/0ozrpU7jUzA?si=PBBMEsIMM9T1GhoE',
+    button: 'YouTube'
+  },
+
+
+
+  {
+    img: process.env.PUBLIC_URL + '/Media/BV-video/Building.mp4',
+    title: 'Building',
+    description: '',
+    link: 'https://www.instagram.com/reel/DFsyN0rzzC8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    button: 'Instagram'
+  },
+
+{
+    img: process.env.PUBLIC_URL + '/Media/BV-image/Building.png',
+    title: 'Building',
+    description: '',
+    link: 'https://www.instagram.com/p/DFsluYYzQ-s/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    button: 'Instagram'
   },
 
 
