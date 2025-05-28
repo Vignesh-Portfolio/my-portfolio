@@ -26,6 +26,56 @@ const webProjects = [
   },
 
 
+   {
+    img: process.env.PUBLIC_URL + '/Media/BV-video/Rider.mp4',
+    title: 'The Journey Begins',
+    description: '',
+    link: 'https://youtube.com/shorts/NhFYtix-kDI',
+    button: 'YouTube'
+  },
+
+ {
+    img: process.env.PUBLIC_URL + '/Media/BV-video/Rider.mp4',
+    title: 'The Journey Begins',
+    description: '',
+    link: 'https://youtube.com/shorts/NhFYtix-kDI',
+    button: 'YouTube'
+  },
+
+ {
+    img: process.env.PUBLIC_URL + '/Media/BV-video/up.mp4',
+    title: 'Rise & Rotate',
+    description: '',
+    link: 'https://www.instagram.com/reel/DFzc__WzAU-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    button: 'Instagram'
+  },
+
+
+
+  {
+    img: process.env.PUBLIC_URL + '/Media/BV-video/ball.mp4',
+    title: 'Bouncing Ball',
+    description: '',
+    link: 'https://www.instagram.com/reel/DFxdS3PTKuT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    button: 'Instagram'
+  },
+
+
+
+
+
+  {
+    img: process.env.PUBLIC_URL + '/Media/BV-video/CubeM.mp4',
+    title: 'Cube',
+    description: '',
+    link: 'https://www.instagram.com/reel/DFww4atO0sm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    button: 'Instagram'
+  },
+
+
+
+
+
   {
     img: process.env.PUBLIC_URL + '/Media/BV-video/Island.mp4',
     title: 'Island',
