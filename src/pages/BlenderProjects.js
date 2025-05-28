@@ -27,10 +27,10 @@ const webProjects = [
 
 
   {
-    img: process.env.PUBLIC_URL + '/Media/BV-video/B.mp4',
-    title: 'Butterfly',
+    img: process.env.PUBLIC_URL + '/Media/BV-video/Island.mp4',
+    title: 'Island',
     description: '',
-    link: 'https://youtube.com/shorts/ge0du7z6BMk',
+    link: 'https://youtube.com/shorts/Oj6NgMTK0Rc',
     button: 'YouTube'
   },
 
